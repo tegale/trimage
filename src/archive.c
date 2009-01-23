@@ -102,7 +102,7 @@ ti_archive_update(GList *archive, TiTriangleList *cand,
     }
   }
 
-  if ((close_dist > dis) && (max_len < curr_len)) {
+  if ((close_dist > dis) && (max_len > curr_len)) {
     /* If the archive is not yet full, add the point if it is farther
      * than dis from the nearest archived point. */
     revised_archive = archive_insert (archive, cand, obj);
