@@ -11,7 +11,7 @@ libtrimage_a_SOURCES = \
 
 LDADD = libtrimage.a
 
-noinst_PROGRAMS = pngtest svgtest comptest
+noinst_PROGRAMS = pngtest svgtest comptest montecarlo
 
 pngtest_SOURCES = \
 	pngtest.c
@@ -21,3 +21,6 @@ svgtest_SOURCES = \
 
 comptest_SOURCES = \
 	comptest.c
+
+montecarlo_SOURCES = \
+	montecarlo.c
